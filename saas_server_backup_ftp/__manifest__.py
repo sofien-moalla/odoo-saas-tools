@@ -1,3 +1,4 @@
+# Odoo 20 migration: intentionally disabled until fully ported and tested.
 {
     'name': "saas_server_backup_ftp",
     'author': "IT-Projects LLC, Ildar Nasyrov, Nicolas JEUDY",
@@ -12,5 +13,5 @@
         'views/res_config.xml',
         'data/ir_cron.xml',
     ],
-    'installable': True,
+    'installable': False,
 }

@@ -1,3 +1,4 @@
+# Odoo 20 migration: intentionally disabled until fully ported and tested.
 {
     'name': 'SaaS Server',
     'version': '12.0.1.0.0',
@@ -20,5 +21,5 @@
         'data/pre_install.xml',
         'security/ir.model.access.csv',
     ],
-    'installable': True,
+    'installable': False,
 }

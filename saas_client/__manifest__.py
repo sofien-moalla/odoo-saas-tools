@@ -1,3 +1,4 @@
+# Odoo 20 migration: intentionally disabled until fully ported and tested.
 {
     'name': 'SaaS Client',
     'version': '12.0.1.0.0',
@@ -25,7 +26,7 @@
         'data/ir_config_parameter.xml',
         'data/ir_actions.xml',
     ],
-    'installable': True,
+    'installable': False,
     'qweb': [
         'static/src/xml/saas_dashboard.xml',
     ],

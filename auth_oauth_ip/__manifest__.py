@@ -1,3 +1,4 @@
+# Odoo 20 migration: intentionally disabled until fully ported and tested.
 {
     "name": """Local IP for OAuth requests""",
     "summary": """Allows to check access_token by requests in local network""",
@@ -26,6 +27,6 @@
     "post_load": None,
     "pre_init_hook": None,
     "post_init_hook": None,
-    "installable": True,
+    "installable": False,
     "auto_install": False,
 }
